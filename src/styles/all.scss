@@ -1,0 +1,42 @@
+/**
+ * Paul van der Meijs – Website
+ * ============================
+ * 
+ * @author Paul van der Meijs <info@paulvandermeijs.com>
+ * @copyright Copyright (c) 2018, Paul van der Meijs
+ * @license 
+ * @version 0.0.1
+ */
+
+body {
+    background-image: url('/images/backgrounds/bg-blurred.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    
+    &:hover {
+        color: darken(#fff, 14%);
+    }
+}
+
+.centered-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section.invert {
+    background-color: #222;
+    color: #ecf0f1;
+}

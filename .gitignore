@@ -1,0 +1,14 @@
+# Cache
+.sass-cache
+
+# Dependencies
+node_modules
+
+# Vendor files
+docs/vendor
+
+# Compiled files
+docs/**/*.css
+docs/**/*.css.map
+
+docs/**/*.js
